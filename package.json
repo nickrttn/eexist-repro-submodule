@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "my-turborepo-submodule",
   "description": "A barebones Turborepo example for working with Task Graphs.",
   "devDependencies": {
     "turbo": "^2.0.4-canary.4"

@@ -14,28 +14,28 @@ importers:
 
   apps/apps-a:
     dependencies:
-      pkg-a:
+      submodule-pkg-a:
         specifier: workspace:*
         version: link:../../packages/pkg-a
-      tooling-config:
+      submodule-tooling-config:
         specifier: workspace:*
         version: link:../../packages/tooling-config
 
   apps/apps-b:
     dependencies:
-      tooling-config:
+      submodule-tooling-config:
         specifier: workspace:*
         version: link:../../packages/tooling-config
 
   packages/pkg-a:
     dependencies:
-      tooling-config:
+      submodule-tooling-config:
         specifier: workspace:*
         version: link:../tooling-config
 
   packages/pkg-b:
     dependencies:
-      tooling-config:
+      submodule-tooling-config:
         specifier: workspace:*
         version: link:../tooling-config
 
